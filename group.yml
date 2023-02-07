@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure
+  description: The infra business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Infrastructure
+    email: bingwei@163.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [bingwei,zhangsan]
